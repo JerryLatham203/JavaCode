@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class main{
+    public static void main(String[]args){
+        System.out.print("enter a number: ");
+        Scanner sc_number = new Scanner(System.in);
+        float user_number = sc_number.nextFloat();
+
+        System.out.print("enter multiplier: ");
+        Scanner sc_multiplier = new Scanner(System.in);
+
+        float user_multiply = sc_multiplier.nextFloat();
+        float calculate = user_number * user_multiply;
+
+        System.out.println("the result is: " + calculate);
+
+        //end of main method
+    }
+    //end of class main
+}
